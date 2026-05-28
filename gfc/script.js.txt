@@ -1,0 +1,17 @@
+function showMsg(type) {
+  let text = "";
+
+  if (type === "doyuscu") {
+    text = "BURADA HƏLƏ HEÇ NƏ YOXDUR";
+  }
+
+  if (type === "turnir") {
+    text = "SOON";
+  }
+
+  if (type === "afterparty") {
+    text = "is coming soon..";
+  }
+
+  document.getElementById("messageBox").innerText = text;
+}

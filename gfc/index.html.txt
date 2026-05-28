@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GOLD FIGHTING CHAMPIONSHIP</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="profile">
+
+    <img src="https://cdn-icons-png.flaticon.com/512/889/889455.png" class="logo">
+
+    <h1>GOLD FIGHTING CHAMPIONSHIP</h1>
+
+    <h2>Salam!</h2>
+
+    <p class="welcome">
+      GOLD FIGHTING CHAMPIONSHIP saytına xoş gəlmisiniz.
+    </p>
+
+    <!-- ЭКРАН ТЕКСТА -->
+    <div id="messageBox" class="messageBox"></div>
+
+    <div class="description">
+
+      <p>
+        GOLD FIGHTING CHAMPIONSHIP — peşəkar boksu,
+        möhtəşəm turnirləri və böyük idman şousu atmosferini
+        birləşdirən yeni nəsil döyüş liqasıdır.
+      </p>
+
+      <p>
+        Saytda istifadəçilər qarşıdan gələn döyüşləri izləyə,
+        döyüşçülərin kartlarına baxa, döyüş nəticələrini
+        və gələcək tədbirlərin tarixlərini öyrənə bilərlər.
+      </p>
+
+      <p>
+        Liqa döyüşçülərə pul mükafatları uğrunda çıxış etmək,
+        peşəkar karyera qurmaq və boks dünyasında
+        yeni səviyyəyə yüksəlmək imkanı yaradır.
+      </p>
+
+      <p>
+        Yeni iştirakçılar üçün xüsusi döyüşçü müraciəti bölməsi mövcuddur.
+        Burada hər kəs anket göndərərək seçim mərhələsindən keçə bilər.
+      </p>
+
+      <p>
+        Platformada həmçinin iş müraciəti bölməsi də mövcuddur.
+        Burada GOLD FIGHTING CHAMPIONSHIP-də işləmək üçün müraciət etmək mümkündür.
+      </p>
+
+      <p>
+        Turnirlərdən sonra qonaqları DJ-lər,
+        şou proqramları və xüsusi qonaqlarla
+        eksklüziv after party-lər gözləyir.
+      </p>
+
+    </div>
+
+    <!-- КНОПКИ -->
+    <a href="#" class="link" onclick="showMsg('doyuscu')">
+      🥊 Döyüşçülər
+    </a>
+
+    <a href="#" class="link" onclick="showMsg('turnir')">
+      🏆 Turnirlər
+    </a>
+
+    <a href="#" class="link" onclick="showMsg('afterparty')">
+      🎧 After Party
+    </a>
+
+    <a href="https://t.me/gfc_apply_bot" class="link" target="_blank">
+      💼 İş Müraciəti
+    </a>
+
+    <a href="https://t.me/gfcfightregbot" class="link" target="_blank">
+      📩 Döyüşçü Qeydiyyatı
+    </a>
+
+    <a href="https://t.me/gfchelpsupportbot" class="link" target="_blank">
+      🛟 Dəstək Xidməti
+    </a>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
